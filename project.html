@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my_project_nixaurudel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" inicial-scale="1.0">
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <a href="https://bit.ly/44EdzgF"></a>
+    </head>
+    <body>
+        <header>
+            <div class="rien"></div>
+            <div class="content1">
+                <div class="logo">
+                    <h2 style="color:white;"><span style="color:#118AB2;">nixau</span><span>rudel</span> company<br/><span style="font-size:15px;">believe in yourself</span></h2>
+                </div>
+                <div  id ="menu" class="menu">
+                    <ul>
+                        <li id="li1"><a href="#">home</a></li>
+                        <li id="li2"><a href="#">services</a></li>
+                        <li id="li3"><a href="#">about</a></li>
+                        <li id="li4"><a href="#">testimonials</a></li>
+                        <li id="li5"><a href="#">contact</a></li>
+                    </ul>
+                </div>
+
+                <div  id ="menu2" class="menu2">
+                    <h3><span style="color:#118AB2">nixau</span>rudel</h3>
+                    <button class="close" id="close"><i class="fa-solid fa-xmark"></i></button>
+                    <ul >
+                        <li id="li1" class="li1"><i class="fa-solid fa-house"></i><a href="#">home</a></li>
+                        <li id="li2" class="li2"><i class="fa-solid fa-laptop"></i><a href="#">services</a></li>
+                        <li id="li3" class="li3"><i class="fa-solid fa-newspaper"></i><a href="#">about</a></li>
+                        <li id="li4" class="li4"><i class="fa-solid fa-users"></i><a href="#">testimonials</a></li>
+                        <li id="li5" class="li5"><i class="fa-solid fa-address-card"></i><a href="#">contacts</a></li>
+                    </ul>         
+                </div>
+                <button class="open" id="open"><i class="fa-solid fa-bars"></i></button>
+                <script>
+                    var open = document.getElementById("open");
+                    var close = document.getElementById("close");
+                    var menu2 = document.getElementById("menu2");
+
+                    close.addEventListener("click", function(){
+                        menu2.style.transform = "translate3d(-350px,0,0)"
+                    })
+                    open.addEventListener("click", function(){
+                        menu2.style.transform = "translate3d(0,0,0)"
+                    })
+                    
+
+                </script>
+            </div> 
+            <div class="rien2"></div>
+            
+        </header>
+
+
+
+
+        <section>
+            <div class="content2">
+                <div class="home">
+                    <div class="top">
+                    </div>
+                    <div class="middle">
+                        <p style="color:white">subscribe to our newsletter:</p>
+
+                        <div class="subscribe">
+                            <input id ="inputsub" type="text" placeholder="subscribe">
+                            <button type="submit" id="submit"><a href="abonnement.html" style="color:black; text-decoration: none;">Subscribe</a></button>
+                        </div>
+                    </div>
+                    <div class="rien3"></div>
+                    <div class="bottom">
+                    </div>
+                </div>
+
+                <div class="services">
+                    <h3 style="color:#118AB2">services</h3>
+                    <div class="contents">
+                        <div class="camera">
+                            <div class="phrase1">
+                                <h4 style="text-decoration:underline;">CCTV cameras</h4>
+                                <p>Do you need a security vigilance in your residence, your office, your workshop or your workplace?<br/> Then, your are in a right place, we provide a service of installing CCTV cameras to ensure security in your house, residence, workshop, workplace or your room.<br/> We provide also a maintenance of your CCTV cameras.</p>
+                            </div>
+                            <div class="image1">
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="network">
+                            <div class="phrase2">
+                                <h4 style="text-decoration: underline;">LAN and WAN</h4>
+                                <p>Do you need interconnectivity between your computers in order to communicate or share data? Then you are in the right place, we install the interconnectivity between the computers in your office, entreprise or workplace to allow communication between your computers, to share data without or with internet connection. We install also Voip (voice over ip) to allow communication in your entreprise, phone calls using Voip phones.</p>
+                            </div>
+                            <div class="image2">
+                            </div>
+                        </div>
+
+                        
+                        <div class="itsupport">
+                            <div class="phrase3">
+                                <h4 style="text-decoration: underline;">IT support</h4>
+                                <p>Are you dealing with problems with your computers, printers or any peripheral of your computer?<br/> Then this is the right place for you, we provide IT support, it consists on helping our customers who are dealing with problems with their computers or any peripheral of their computers such a printer.We provide also a maintenance of your computer and peripherals. We are here to help. </p>
+                            </div>
+                            <div class="image3">
+                            </div>
+                        </div>
+
+                        
+                        <div class="alarm">
+                            <div class="phrase4">
+                                <h4 style="text-decoration:underline;">Alarm system, fire sensor, doorbell</h4>
+                                <p>Do you need a security against fire or conflagration or blaze in your entreprise, workplace or room?<br/>Then we are here to help, we install alarm system and fire sensor to furnish security in your place against fire, blaze or conflagration. Moreover, we install doorbell. </p>
+                            </div>
+                            <div class="image4">
+                            </div>
+                        </div>
+
+                        
+                        <div class="gate">
+                            <div class="phrase5">
+                                <h4 style="text-decoration: underline;">Automatic gate</h4>
+                                <p>We provide a service of installing automatic gate in your residence, entreprise or workplace to allow the automatic opening and shutting of your gate.</p>
+                            </div>
+                            <div class="image5">
+                            </div>
+                        </div>
+
+                        <div class="electricity">
+                            <div class="phrase6">
+                                <h4 style="text-decoration: underline;">Electricity</h4>
+                                <p>Do you need the electrical installation in your residence, home, entreprise, workplace, warehouse or room? Then, this is the place ! We help doing the electrical installation in your place and also we provide a full maintenance of your electrical installation in your residence, entreprise, home, warehouse or place.</p>
+                            </div>
+                            <div class="image6">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+                <div class="about">
+                    <h3 style="color:#118AB2;">about us</h3>
+                    <div class="content">
+                        <div class="phrase">
+                        </div>
+                        <div class="image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials">
+                    <h3 style="color:#118AB2;">testimonials</h3>
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <h3 style="color:#118AB2;">contact</h3>
+                    <div class="content">
+                        <div class="local">
+                            <ul>
+                                <li><i class="fa-solid fa-location-dot"></i>Angola/Luanda</li>
+                                <li><i class="fa-solid fa-envelope"></i>exaucevungu5@gmail.com</li>
+                                <li><i class="fa-solid fa-phone"></i>+244 936791351</li>
+                                <li><i class="fa-solid fa-calendar-days"></i>Monday-Friday: 8AM-6PM</li>
+                                <li><i class="fa-solid fa-calendar-days"></i>Saturday: 8AM-3PM</li>
+                                <li><i class="fa-solid fa-calendar-days"></i>Sunday: closed</li>
+                                <li><i class="fa-solid fa-globe"></i>www.nixaurudel.com</li>
+                            </ul>
+                        </div>
+                        <div class="form">
+                            <form methods="POST" action="#" id="form">
+                                <h4>Send your message</h4>
+                                <input type="text" placeholder="your name" id="name">
+                                <p class="error" id="namep"></p>
+                                <br/>
+                                <input type="email" placeholder="your email" id="email">
+                                <p class="error" id="emailp"></p>
+                                <br/>
+                                <textarea type="text" placeholder="your message"></textarea>
+                                <br/>
+                                <button type="submit" >submit</button>
+                                <style> button:hover{background-color:#118AB2;} </style>
+                            </form>
+                    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+        </footer>
+        <script>
+            var submit = document.getElementById("submit");
+            const name = document.getElementById("name");
+            const email = document.getElementById("email");
+            const form = document.getElementById("form");
+            const namep = document.getElementById("namep");
+            const emailp = document.getElementById("emailp")
+
+
+            form.addEventListener("submit", function(e){
+                e.preventDefault();
+                validateInputs()
+            })
+
+            validateInputs = () =>{
+                if ( name.value.trim()== ""){
+                    name.classList.add("errorr")
+                    namep.classList.add("errorr");
+                    namep.innerText = "error, name is required!!" 
+                }
+                if ( email.value.trim()== ""){
+                    email.classList.add("errorr")
+                    emailp.classList.add("errorr");
+                    emailp.innerText = "error, email is required!!" 
+                }
+
+                else{
+                    name.classList.remove("error");
+                    name.classList.add("sucess");
+                    email.classList.remove("error");
+                    email.classList.add("sucess");
+                }
+            }
+        </script>
+    </body>
+</html>
+        
